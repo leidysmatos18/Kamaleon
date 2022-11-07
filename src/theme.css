@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+#root {
+  white-space: pre-line;
+}
+.bannerh {
+  background: url("statics/vbg.png");
+  background-size: cover;
+  padding: 10px 2%;
+  /* height: 100vh; */
+}
+.btnactive {
+  background: -webkit-linear-gradient(
+    117deg,
+    rgba(71, 75, 255, 0) 0%,
+    #3ae9fc 100%
+  );
+  background: linear-gradient(117deg, rgba(71, 75, 255, 0) 0%, #3ae9fc 100%);
+}
+#tsparticles {
+  position: absolute;
+  z-index: 2;
+}
+
+.h2ttl span {
+  font-size: 2rem;
+  color: #000;
+}
+.hr {
+  background-color: #35ebff;
+  width: 50px;
+  border: 0;
+  margin: 0;
+  border-radius: 22px;
+  height: 12px;
+}
+.hr-icons {
+  background-color: #35ebff;
+  width: 50px;
+  border: 0;
+  margin: 10px auto 10px 0px;
+  border-radius: 22px;
+  height: 5px;
+}
+.hr-items {
+  background-color: #35ebff;
+  width: 50px;
+  border: 0;
+  margin: auto;
+  border-radius: 22px;
+  height: 5px;
+}
+.hr-barra {
+  background-color: #35ebff;
+  /* width: 50px; */
+  border: 0;
+  margin: auto;
+  border-radius: 22px;
+  height: 2px;
+}
+.hrpk {
+  background-color: #35ebff;
+  width: 100%;
+  height: 2px;
+}
+.desc {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+strong {
+  font-weight: 900;
+}
+.tokenomicblock {
+  position: relative;
+  height: 200px;
+}
+.tokenblock {
+  background: #004bb7;
+}
+.backgblock {
+  background: rgb(0, 0, 161);
+  background: linear-gradient(
+    75deg,
+    rgba(0, 0, 161, 1) 0%,
+    rgba(64, 255, 255, 1) 100%
+  );
+}
+.year {
+  color: #3ae9fc;
+  font-weight: 400;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 30px 0px;
+  border-color: transparent transparent #3ae9fc transparent;
+}
+.boxitem {
+  padding: 10px;
+  border: solid #000 1px;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #020060;
+  position: absolute;
+  top: -19px;
+}
